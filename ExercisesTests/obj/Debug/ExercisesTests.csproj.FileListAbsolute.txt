@@ -1,0 +1,17 @@
+c:\users\pchavez\documents\visual studio 2012\Projects\CSharpExercises\ExercisesTests\bin\Debug\ExercisesTests.dll
+c:\users\pchavez\documents\visual studio 2012\Projects\CSharpExercises\ExercisesTests\bin\Debug\ExercisesTests.pdb
+c:\users\pchavez\documents\visual studio 2012\Projects\CSharpExercises\ExercisesTests\bin\Debug\Exercises.dll
+c:\users\pchavez\documents\visual studio 2012\Projects\CSharpExercises\ExercisesTests\bin\Debug\FluentAssertions.Core.dll
+c:\users\pchavez\documents\visual studio 2012\Projects\CSharpExercises\ExercisesTests\bin\Debug\FluentAssertions.dll
+c:\users\pchavez\documents\visual studio 2012\Projects\CSharpExercises\ExercisesTests\bin\Debug\nunit.framework.dll
+c:\users\pchavez\documents\visual studio 2012\Projects\CSharpExercises\ExercisesTests\bin\Debug\Rhino.Mocks.dll
+c:\users\pchavez\documents\visual studio 2012\Projects\CSharpExercises\ExercisesTests\bin\Debug\Exercises.pdb
+c:\users\pchavez\documents\visual studio 2012\Projects\CSharpExercises\ExercisesTests\bin\Debug\FluentAssertions.pdb
+c:\users\pchavez\documents\visual studio 2012\Projects\CSharpExercises\ExercisesTests\bin\Debug\FluentAssertions.xml
+c:\users\pchavez\documents\visual studio 2012\Projects\CSharpExercises\ExercisesTests\bin\Debug\FluentAssertions.Core.pdb
+c:\users\pchavez\documents\visual studio 2012\Projects\CSharpExercises\ExercisesTests\bin\Debug\FluentAssertions.Core.xml
+c:\users\pchavez\documents\visual studio 2012\Projects\CSharpExercises\ExercisesTests\bin\Debug\nunit.framework.xml
+c:\users\pchavez\documents\visual studio 2012\Projects\CSharpExercises\ExercisesTests\bin\Debug\Rhino.Mocks.xml
+c:\users\pchavez\documents\visual studio 2012\Projects\CSharpExercises\ExercisesTests\obj\Debug\ExercisesTests.csprojResolveAssemblyReference.cache
+c:\users\pchavez\documents\visual studio 2012\Projects\CSharpExercises\ExercisesTests\obj\Debug\ExercisesTests.dll
+c:\users\pchavez\documents\visual studio 2012\Projects\CSharpExercises\ExercisesTests\obj\Debug\ExercisesTests.pdb

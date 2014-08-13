@@ -1,0 +1,5 @@
+c:\users\pchavez\documents\visual studio 2012\Projects\CSharpExercises\Exercises\bin\Debug\Exercises.dll
+c:\users\pchavez\documents\visual studio 2012\Projects\CSharpExercises\Exercises\bin\Debug\Exercises.pdb
+c:\users\pchavez\documents\visual studio 2012\Projects\CSharpExercises\Exercises\obj\Debug\Exercises.csprojResolveAssemblyReference.cache
+c:\users\pchavez\documents\visual studio 2012\Projects\CSharpExercises\Exercises\obj\Debug\Exercises.dll
+c:\users\pchavez\documents\visual studio 2012\Projects\CSharpExercises\Exercises\obj\Debug\Exercises.pdb
