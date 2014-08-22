@@ -1,0 +1,8 @@
+*.dll
+*.pdb
+Exercises/**/*.dll
+Exercises/**/*.pdb
+Exercises/bin/**
+ExercisesTests/**/*.cache
+*.v11.*
+

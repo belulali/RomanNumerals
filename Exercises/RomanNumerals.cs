@@ -5,21 +5,21 @@ namespace Exercises
 {
     public class RomanNumerals
     {
-        private readonly Dictionary<int, string> _romanNumbers = new Dictionary<int, string>()
+        private readonly Dictionary<string, int> _romanNumbers = new Dictionary<string, int>()
             {
-                {1000, "M"}, 
-                {900, "CM"}, 
-                {500, "D"}, 
-                {400, "CD"}, 
-                {100, "C"}, 
-                {90, "CX"}, 
-                {50, "L"}, 
-                {40, "XL"}, 
-                {10, "X"}, 
-                {9, "IX"}, 
-                {5, "V"}, 
-                {4, "IV"},
-                {1, "I"}
+                {"M",1000}, 
+                {"CM", 900}, 
+                {"D" ,500}, 
+                {"CD",400}, 
+                {"C" ,100}, 
+                {"CX",90}, 
+                {"L" ,50}, 
+                {"XL",40}, 
+                {"X" ,10}, 
+                {"IX",9}, 
+                {"V" ,5}, 
+                {"IV",4},
+                {"I" ,1}
             };
 
         public string Transform(int number)
@@ -35,29 +35,22 @@ namespace Exercises
 
             while (number != 0)
             {
-                var closestValue = ClosestValue(number);
-                result += closestValue.Single().Value;
-                number -= closestValue.Single().Key; 
+                var romanNumeral = GetRomanNumeralOf(number);
+                result += romanNumeral;
+                number -= GetDecimalValueOf(romanNumeral); 
             }
             return result;
             
         }
 
-        private Dictionary<int, string> ClosestValue(int number)
+        private string GetRomanNumeralOf(int number)
         {
-            var romanNumeralsDictonary = new Dictionary<int, string>();
-           
-            foreach (var romanNumber in _romanNumbers.Keys)
-            {
-                if (romanNumber <= number)
-                {
-                    romanNumeralsDictonary.Add(romanNumber, _romanNumbers[romanNumber]);
-                    return romanNumeralsDictonary;
-                }
+            return _romanNumbers.First(kv => kv.Value <= number).Key;
+        }
 
-            }
-            
-            return romanNumeralsDictonary;
+        private int GetDecimalValueOf(string romanNumeral)
+        {
+            return _romanNumbers[romanNumeral];
         }
     }
 }
